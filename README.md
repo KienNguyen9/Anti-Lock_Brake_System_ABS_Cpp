@@ -20,7 +20,7 @@
 - Cho phép thêm hành khách vào xe (tức là tăng thêm khối lượng xe) 
 - Có khả năng trả về tổng khối lượng của xe (khối lượng cơ bản của xe cộng với khối lượng tất cả các hành khách)
 
-<h4>Hệ thống ABS:</h4>
+<h4>Hệ thống chống bóp cứng phanh(ABS):</h4>
 
 - Ngõ vào của hệ thống là: nhận vào 1 chiếc xe ô tô 
 - Khi tiến hành phanh: 
