@@ -26,10 +26,8 @@
 - Khi tiến hành phanh: 
 
 
-    Nếu tốc độ quay của bánh xe dưới ngưỡng qui định sẵn (ví dụ: 2 vòng trên giây) của người lập trình cài đặt thì sẽ có một cảnh báo về nguy cơ bóp cứng phanh được thông báo.
-    Hệ thống sẽ phải điều chỉnh lại lực phanh dựa trên khối lượng ngay lúc đó.
-
-
-
-    Nếu tốc độ quay của bánh xe trên ngưỡng qui định sẵn thì hệ thống phanh sẽ hoạt động theo thao tác của người dùng
+        Nếu tốc độ quay của bánh xe dưới ngưỡng qui định sẵn (ví dụ: 2 vòng trên giây) của người lập trình cài đặt thì sẽ có một cảnh báo về nguy cơ bóp cứng phanh được thông báo.
+        Hệ thống sẽ phải điều chỉnh lại lực phanh dựa trên khối lượng ngay lúc đó.
+        
+        Nếu tốc độ quay của bánh xe trên ngưỡng qui định sẵn thì hệ thống phanh sẽ hoạt động theo thao tác của người dùng
 
