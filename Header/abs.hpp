@@ -1,12 +1,12 @@
 #ifndef ABS_H
 #define ABS_H
 
-#include "C:\Users\ADMIN\Desktop\Anti-Lock_Brake_System_ABS_Cpp\header\car.hpp"
+#include "C:\Users\ADMIN\Desktop\Anti_Lock_Brake_System_ABS_Cpp\Header\car.hpp"
 
 class ABS
 {
 private:
-    Car* ABS_Car; // Không cần "= new Car" vì chưa khởi tạo đối tượng   
+    Car *ABS_Car; // Không cần "= new Car" vì chưa khởi tạo đối tượng   
        
 public:
     // Constructor 

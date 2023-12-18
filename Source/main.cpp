@@ -8,16 +8,17 @@
  * @copyright Copyright (c) 2023
  * 
  */
-#include "C:\Users\ADMIN\Desktop\Anti-Lock_Brake_System_ABS_Cpp\header\abs.hpp"
-#include "C:\Users\ADMIN\Desktop\Anti-Lock_Brake_System_ABS_Cpp\header\car.hpp"
-#include "C:\Users\ADMIN\Desktop\Anti-Lock_Brake_System_ABS_Cpp\header\wheel.hpp"
+
+#include "C:\Users\ADMIN\Desktop\Anti_Lock_Brake_System_ABS_Cpp\Header\abs.hpp"
+#include "C:\Users\ADMIN\Desktop\Anti_Lock_Brake_System_ABS_Cpp\Header\car.hpp"
+#include "C:\Users\ADMIN\Desktop\Anti_Lock_Brake_System_ABS_Cpp\Header\wheel.hpp"
 
 int main()
 {
     Car car;
     ABS abs_system(&car);
 
-    // set up
+    // set-up
     int wheel_speed;
     std::cout << "Set wheel speed: " << '\n';
     std::cin >> wheel_speed;
@@ -40,7 +41,6 @@ int main()
         
         abs_system.brake();
     }
-    
 
     return 0;
 }

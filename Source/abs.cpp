@@ -1,7 +1,8 @@
-#include "C:\Users\ADMIN\Desktop\Anti-Lock_Brake_System_ABS_Cpp\header\abs.hpp"
+#include "C:\Users\ADMIN\Desktop\Anti_Lock_Brake_System_ABS_Cpp\header\abs.hpp"
 #include <cassert>
+#include <conio.h>
 
-ABS::ABS(Car* car)
+ABS::ABS(Car *car)
 {
     ABS_Car = car;
 }
@@ -14,7 +15,7 @@ bool ABS::isSpeedWheelUnderLimit()
 void ABS::brake()
 {
     assert(!isSpeedWheelUnderLimit() && "Wheel are in danger of locking up");
-
+    getch();
 }
 
 

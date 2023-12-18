@@ -1,7 +1,7 @@
 #ifndef WHEEL_H
 #define WHEEL_H
 
-#include<iostream>
+#include <iostream>
 #define WHEEL_LIMIT_SPEED 10
 
 class Wheel
