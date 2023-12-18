@@ -18,3 +18,18 @@
 - Xe có một bánh và khối lượng cơ bản của nó là 1000kg
 - Cho phép thiết lập giá trị và lấy giá trị khối lượng của xe
 - Cho phép thêm hành khách vào xe (tức là tăng thêm khối lượng xe) 
+- Có khả năng trả về tổng khối lượng của xe (khối lượng cơ bản của xe cộng với khối lượng tất cả các hành khách)
+
+<h4>Hệ thống ABS:</h4>
+
+- Ngõ vào của hệ thống là: nhận vào 1 chiếc xe ô tô 
+- Khi tiến hành phanh: 
+
+```
+Nếu tốc độ quay của bánh xe dưới ngưỡng qui định sẵn (ví dụ: 2 vòng trên giây) của người lập trình cài đặt thì sẽ có một cảnh báo về nguy cơ bóp cứng phanh được thông báo.
+Hệ thống sẽ phải điều chỉnh lại lực phanh dựa trên khối lượng ngay lúc đó.
+```
+
+```
+Nếu tốc độ quay của bánh xe trên ngưỡng qui định sẵn thì hệ thống phanh sẽ hoạt động theo thao tác của người dùng
+```
