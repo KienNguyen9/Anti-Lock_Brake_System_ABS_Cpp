@@ -15,7 +15,7 @@
 
 <h4>Xe (The car):</h4>
 
-- Xe có một bánh và khối lượng cơ bản của nó là 1000kg
+- Xe có 1 bánh và khối lượng cơ bản của nó là 1000kg
 - Cho phép thiết lập giá trị và lấy giá trị khối lượng của xe
 - Cho phép thêm hành khách vào xe (tức là tăng thêm khối lượng xe) 
 - Có khả năng trả về tổng khối lượng của xe (khối lượng cơ bản của xe cộng với khối lượng tất cả các hành khách)
