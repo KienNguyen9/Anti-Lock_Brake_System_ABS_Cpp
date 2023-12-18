@@ -28,6 +28,18 @@
 
         Nếu tốc độ quay của bánh xe dưới ngưỡng qui định sẵn (ví dụ: 2 vòng trên giây) của người lập trình cài đặt thì sẽ có một cảnh báo về nguy cơ bóp cứng phanh được thông báo.
         Hệ thống sẽ phải điều chỉnh lại lực phanh dựa trên khối lượng ngay lúc đó.
-        
+
         Nếu tốc độ quay của bánh xe trên ngưỡng qui định sẵn thì hệ thống phanh sẽ hoạt động theo thao tác của người dùng
 
+<h4>Mô tả các quá trình trong chương trình chính(main function):</h4>
+
+- Khởi tạo một đối tượng xe 
+- Khởi tạo hệ thống ABS của xe đó
+- Thiết lập tốc độ quay của bánh xe và áp dụng phanh cho xe  
+- Thêm hành khách với khối lượng cụ thể vào xe
+- Lặp lại việc thiết lập tốc độ quay và phanh
+
+<h4>Lưu ý:</h4>
+
+Trong chương trình logic chương trình là: việc điều chỉnh lực phanh dựa trên khối lượng tổng của xe cộng với khối lượng người trên xe và tốc độ hiện tại của xe, đó là các biến thời gian thực được cung cấp từ các cảm biến.   
+Trong dự án này chỉ dùng các biến mô phỏng các thông số trên.
